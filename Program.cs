@@ -16,7 +16,7 @@
 
              */
 
-            for (int i = 0; i <= 6 ; i++)
+            for (int i = 1; i <= 6 ; i++)
             {
                 for(int j = 0; j < i; j++)
                 {
@@ -28,9 +28,21 @@
                 Console.WriteLine();
             }
 
-            for (int i = 6; i >= 1; i--)
+            /*
+           To Print
+          *****
+          ****
+          ***
+          **
+          *
+        
+
+
+           */
+
+            for (int i = 5; i >= 1; i--)
             {
-                for (int j = 1; j < i; j++)
+                for (int j = 0; j < i; j++)
                 {
 
                     Console.Write("*");
@@ -40,7 +52,14 @@
                 
             }
 
-            for(int i = 0; i < 10; i++)
+            /*
+          To Print
+
+         **********
+        
+          */
+
+            for (int i = 0; i < 10; i++)
             {
                 Console.Write("*");
             }
